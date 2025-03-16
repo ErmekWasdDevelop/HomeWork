@@ -17,10 +17,10 @@ public class HW2 {
         if (age >= 20 && age <= 45 && temperature >= -20 && temperature <= 30) {
             return "Можно идти гулять";
         }
-        if (age < 20 && temperature >= 0 && temperature <= 28) {
+        else if (age < 20 && temperature >= 0 && temperature <= 28) {
             return "Можно идти гулять";
         }
-        if (age > 45 && temperature >= -10 && temperature <= 25) {
+        else if (age > 45 && temperature >= -10 && temperature <= 25) {
             return "Можно идти гулять";
         } else return "Оставайтесь дома";
     }
