@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class HW3 {
     public static void main(String[] args) {
 
@@ -16,6 +14,5 @@ public class HW3 {
             sum += Double.valueOf( arrayD[i] );
         }
         System.out.println(" =  "+(sum/8)); // ПУНКТ 2
-
     }
 }
