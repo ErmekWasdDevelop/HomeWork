@@ -6,14 +6,15 @@ public class HW3 {
                 35.71, -1.24, 4.73, 312.10, -31.86};
         int kolvo=0;
         double sum = 0;
-        for (int i = 2; i < arrayD.length; i++) {
-            if (arrayD[i] < 0) {
-                continue;
+        boolean uslovie = false;
+        for (double arrayf: arrayD) {
+            if (arrayf < 0) {
+                uslovie = true;
             }
+            if (arrayf >0 && uslovie){
             kolvo++;
-            System.out.print(arrayD[i] + " ");
-            sum += arrayD[i];
+            sum += arrayf;}
         }
-        System.out.println(" =  " + (sum / kolvo)); // ПУНКТ 2
+        System.out.println(" Среднеарифметическое =  " + (sum / kolvo)); // ПУНКТ 2
     }
 }
