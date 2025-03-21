@@ -24,7 +24,6 @@ public class HW2 {
             return "Можно идти гулять";
         } else return "Оставайтесь дома";
     }
-
     // ПУНКТ 4
     public static int generateRandomAge() {
         return (int) (Math.random() * 120);
